@@ -11,7 +11,7 @@ const links = [
   { to: "/services", label: "Services" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
-] ;
+] as const;
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
